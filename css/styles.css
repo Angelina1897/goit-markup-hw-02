@@ -72,13 +72,10 @@ line-height: 1.5;
 }
 < !--============HERO==============-->
 .hero {
-    width: 1440px;
-        height: 600px;
         background-color: #2e2f42;
 }
 
 .hero-title {
-    color: #ffffff;
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
@@ -102,8 +99,6 @@ color: #ffffff;
 }
 < !--============BENEFITS============-->
 .benefits {
-width: 1440px;
-    height: 732px;
 }
 
 .benefits-title {
@@ -144,8 +139,6 @@ width: 1440px;
 }
 < !-- <============REVIEWS============>-->
 .team {
-width: 1440px;
-    height: 732px;
     background-color: #F4F4FD;
 }
 .team-title {
@@ -208,8 +201,6 @@ text-transform: capitalize;
 }
 
 .portfolio-image {
-    width: 360px;
-        height: 300px;
         background: url("path_to_image");
 
 }

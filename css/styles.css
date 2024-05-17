@@ -1,7 +1,7 @@
 < !--=============HEADER=============-->
-.body {
+body {
     font-family: "Roboto", sans-serif;
-    background-color: #ffffff;
+    background: #fff;
     color: #434455;
 }
 
@@ -21,6 +21,7 @@ ol {
 .header-nav {}
 
 .header-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
@@ -30,7 +31,8 @@ ol {
 }
 
 .header-logo-part {
-    color: #2e2f42;
+    line-height: 1.17;
+        color: #2e2f42;
 }
 
 .nav-list {}
@@ -40,7 +42,7 @@ ol {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .nav-link {
@@ -51,17 +53,15 @@ ol {
     color: var(--navy-blue);
 }
 
-.nav-link:hover {
-    color: tomato;
-}
-
-
-.nav-link:focus {
-    color: tomato;
+.nav-link:hover, .nav-link:focus {
+    color:#404bbf;
 }
 
 .contacts {
-font-style: normal;
+line-height: 1.5;
+    color: #434455;
+    letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .contacts-list {}
@@ -87,7 +87,6 @@ font-style: normal;
 }
 
 .hero-title {
-    font-family: var(--font-family);
     color: #ffffff;
     font-weight: 700;
     font-size: 56px;
@@ -159,7 +158,6 @@ width: 1440px;
     background-color: #F4F4FD;
 }
 .team-title {
-font-family: var(--font-family);
 text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;

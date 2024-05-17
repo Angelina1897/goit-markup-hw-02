@@ -1,7 +1,7 @@
 < !--=============HEADER=============-->
-body {
+.body {
     font-family: "Roboto", sans-serif;
-    background-color: #fff;
+    background-color: #ffffff;
     color: #434455;
 }
 
@@ -21,7 +21,6 @@ ol {
 .header-nav {}
 
 .header-logo {
-    font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
@@ -61,7 +60,9 @@ ol {
     color: tomato;
 }
 
-.contacts {}
+.contacts {
+font-style: normal;
+}
 
 .contacts-list {}
 
@@ -72,38 +73,42 @@ ol {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: #434455;
+}
+.contacts:hover,
+.contacts:focus {
+    color: #404bbf
 }
 < !--============HERO==============-->
 .hero {
     width: 1440px;
         height: 600px;
-        background: var(--navy-blue);
+        background-color: #2e2f42;
 }
 
 .hero-title {
     font-family: var(--font-family);
+    color: #ffffff;
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--white);}
+color: #ffffff;
+}
 
 .hero-btn {
-    border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            background: var(--iris);
-
-        
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 150%;
-                letter-spacing: 0.04em;
-                color: var(--white);
+    font-family: "Roboto", sans-serif;
+        background: #4d5ae5;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        color: #fff;
+        cursor: pointer;
+}
+.hero-btn:hover, .hero-btn:focus {
+    color: #404bbf;
 }
 < !--============BENEFITS============-->
 .benefits {
@@ -117,7 +122,8 @@ width: 1440px;
         line-height: 111%;
         letter-spacing: 0.02em;
         text-align: center;
-        color: var(--navy-blue);
+        color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .benefits-list {}
@@ -144,26 +150,30 @@ width: 1440px;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
-        color: var(--slate);
+        color: #434455;
 }
 < !-- <============REVIEWS============>-->
 .team {
 width: 1440px;
     height: 732px;
+    background-color: #F4F4FD;
 }
 .team-title {
 font-family: var(--font-family);
+text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--navy-blue);
+    color: #2e2f42;
 }
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-subtitle {
     font-weight: 500;
@@ -179,19 +189,7 @@ font-family: var(--font-family);
         line-height: 150%;
         letter-spacing: 0.02em;
         text-align: center;
-        color: var(--slate);
-}
-
-.team-image {
-    border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px 0px;
-        width: 264px;
-        height: 380px;
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-            background: var(--white);
-            width: 264px;
-                height: 260px;
-                background: url("path_to_image");
+        color: #434455;
 }
  < !-- <============PORTFOLIO============>-->
  .portfolio {
@@ -204,7 +202,8 @@ font-family: var(--font-family);
         line-height: 111%;
         letter-spacing: 0.02em;
         text-align: center;
-        color: var(--navy-blue);
+        color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .portfolio-list {}

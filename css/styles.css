@@ -41,10 +41,7 @@ ol {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.nav-item:hover {
-        color: #404bbf;
-    }
-
+.nav-item:hover,
 .nav-item:focus {
     color: #404bbf;
 }
@@ -57,8 +54,8 @@ line-height: 1.5;
 }
 
 .contacts-link:hover, .contacts-link:focus {
-            color: #404bbf;
-        }
+color: #404bbf;
+}
 
 .contacts-item {}
 
@@ -98,7 +95,9 @@ color: #ffffff;
 }
 
 
-.benefits
+.benefits {
+background-color: #F4F4FD;
+}
 
 .benefits-title {
         font-weight: 700;
@@ -108,7 +107,6 @@ color: #ffffff;
         text-align: center;
         text-transform: capitalize;
         color:#2e2f42;
-        background-color: #F4F4FD;
 }
 
 .benefits-list {}

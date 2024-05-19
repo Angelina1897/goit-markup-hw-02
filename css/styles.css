@@ -41,11 +41,10 @@ ol {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.nav-item:hover,
-.nav-item:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 }
-
 .contacts {
 line-height: 1.5;
     color: #434455;
@@ -117,7 +116,6 @@ color: #ffffff;
         letter-spacing: 0.02em;
         text-align: center;
         color:#2e2f42;
-        background-color: #F4F4FD;
 }
 
 .benefits-subtitle {
@@ -135,6 +133,11 @@ color: #ffffff;
         letter-spacing: 0.02em;
         color: #434455;
 }
+
+.team {
+    background-color: #F4F4FD;
+}
+
 .team-item {
     background-color: #FFFFFF;
 }

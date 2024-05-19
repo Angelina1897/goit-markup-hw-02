@@ -43,9 +43,6 @@ ol {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.nav-link:hover, .nav-link:focus {
-    color:#404bbf;
-}
 
 .contacts {
 line-height: 1.5;
@@ -69,8 +66,6 @@ line-height: 1.5;
 .contacts:focus {
     color: #404bbf;
 }
-
-
 
 .hero {
         background-color: #2e2f42;

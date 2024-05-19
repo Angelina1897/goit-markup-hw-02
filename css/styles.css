@@ -34,7 +34,9 @@ ol {
         color: #2e2f42;
 }
 
-.nav-list {}
+.nav-list.hover, .nav-list.focus {
+color: #404bbf;
+    }
 
 .nav-item {
     font-weight: 500;
@@ -51,7 +53,9 @@ line-height: 1.5;
     font-style: normal;
 }
 
-.contacts-list {}
+.contacts-list.hover, .contacts-list.focus {
+            color: #404bbf;
+        }
 
 .contacts-item {}
 
@@ -61,10 +65,6 @@ line-height: 1.5;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
-}
-.link.hover,
-.link.focus {
-    color: #404bbf;
 }
 
 .hero {
@@ -118,6 +118,7 @@ background-color: #F4F4FD;
         letter-spacing: 0.02em;
         text-align: center;
         color:#2e2f42;
+        background-color: #F4F4FD;
 }
 
 .benefits-subtitle {
@@ -134,10 +135,6 @@ background-color: #F4F4FD;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
-}
-
-.benefits_item{
-    background-color: #F4F4FD;
 }
 .team-item {
     background-color: #FFFFFF;

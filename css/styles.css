@@ -98,9 +98,7 @@ color: #ffffff;
 }
 
 
-.benefits {
-background-color: #F4F4FD;
-}
+.benefits
 
 .benefits-title {
         font-weight: 700;
@@ -110,6 +108,7 @@ background-color: #F4F4FD;
         text-align: center;
         text-transform: capitalize;
         color:#2e2f42;
+        background-color: #F4F4FD;
 }
 
 .benefits-list {}
@@ -121,7 +120,6 @@ background-color: #F4F4FD;
         letter-spacing: 0.02em;
         text-align: center;
         color:#2e2f42;
-        background-color: #F4F4FD;
 }
 
 .benefits-subtitle {
@@ -219,7 +217,7 @@ text-transform: capitalize;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);}
+    color: #2e2f42;}
 
 
 .footer {

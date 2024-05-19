@@ -34,7 +34,7 @@ ol {
         color: #2e2f42;
 }
 
-.nav-list:hover, .nav-list:focus {
+.nav-item:hover, .nav-item: {
 color: #404bbf;
     }
 
@@ -53,7 +53,7 @@ line-height: 1.5;
     font-style: normal;
 }
 
-.contacts-list:hover, .contacts-list:focus {
+.contacts:hover, .contacts:focus {
             color: #404bbf;
         }
 

@@ -135,11 +135,10 @@ color: #ffffff;
         color: #434455;
 }
 
-
-
-.team {
+.benefits_item{
     background-color: #F4F4FD;
 }
+
 .team-title {
 text-transform: capitalize;
     font-weight: 700;

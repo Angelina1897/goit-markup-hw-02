@@ -41,8 +41,7 @@ ol {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.nav-item:hover,
-.nav-item:focus {
+.nav-item:hover, .nav-item:focus {
     color: #404bbf;
 }
 
